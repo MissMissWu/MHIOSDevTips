@@ -2,5 +2,5 @@
 
 * [前言](README.md)
 * [Git](Git.md)
-   * GitBook拓展
+   * [GitBook](GitBook使用教程)
 
