@@ -11,3 +11,6 @@
   * 编辑器：各种支持所见即所得的编辑器
   * 和各种其他格式互相转化的工具。PDF、Mobi、Epub、HTML等等，几乎你能想到的所有格式它都能转
 
+
+### 参考链接
+* [Markdown：让书写更美好](http://www.jianshu.com/p/17fdcf17bbb4)
