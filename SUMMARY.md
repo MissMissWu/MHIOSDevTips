@@ -7,6 +7,6 @@
    * [GitHub](Git/GITHUB.md)
 * [MarkDown](MarkDown/MARKDOWNROOT.md)
    * [MarkDown](MarkDown/MARKDOWN.md)
-* ThirdLib
+* [ThirdLib](ThirdLib/THIRDLIBROOT.md)
 * [尾声](ENDREADME.md)
 
