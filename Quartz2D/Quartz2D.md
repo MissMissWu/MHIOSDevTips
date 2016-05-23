@@ -58,10 +58,39 @@
 ```
 
 ### 图形上下文栈机制
-* 画第一条线的时候，会把当前的图形上下文拷贝一份保存到图形上下文栈中。
+* 画第一条线的时候，会把当前的图形上下文拷贝一份保存到** 图形上下文栈 **中。
 * 画第二条线的时候，去图形上下文栈中取出栈顶的绘图信息，作为第二条线的状态信息，第二条线的状态信息也是据此（最初保存的那份图形上下文）进行绘制。
 * **注意：** 在栈里保存了几次，那么就可以取几次（比如不能保存了1次，取两次，在取第二次的时候，栈里为空会直接挂掉）。
 
 
 ### 绘图相关
+* drawRect:方法不能由我们自己手动调用，只能由系统来调用。
+* drawRect:调用的时机：当第一次显示或者一个重绘事件发生时调用。
+* setNeedsDisplay方法：重新绘制，调用这个方法就会通知自定义的view重新绘制画面，调用drawRect:。
+* **提示：**当一个view从xib或storyboard创建出来时，会调用awakefromnib方法。
 
+### Tips:
+##### 下面两个方法的调用顺序
+``` objc
+-(void)awakeFromNib
+-(id)initWithCoder:(NSCoder *)aDecoder
+```
+**提示：**  
+* 如果view是从xib或storyboard中创建可以调用awakefromnib方法。  
+* 归档。从文件创建view，其实会先调用initwithcoder这个方法。xib和storyboard也是文件。
+
+上面两个方法，`-(id)initWithCoder:(NSCoder *)aDecoder`会先调用。实现该方法需要实现NSCoding协议，由于创建的UIView默认就已经实现了该协议。
+
+##### 两个定时器
+* 第一个：  
+`
+[NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(updateImage) userInfo:nil repeats:YES];
+`  
+** 说明：** NSTimer一般用于定时的更新一些非界面上的数据,告诉多久调用一次
+
+* 第二个：  
+```objc
+        CADisplayLink *display= [CADisplayLink displayLinkWithTarget:self selector:@selector(updateImage)];
+        [display addToRunLoop:[NSRunLoopmainRunLoop] forMode:NSDefaultRunLoopMode];
+```  
+** 说明：** CADisplayLink刷帧，默认每秒刷新60次。该定时器创建之后，默认是不会执行的，需要把它加载到消息循环中
