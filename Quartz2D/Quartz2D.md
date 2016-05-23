@@ -242,7 +242,52 @@ context绘图
 ```
 
 ### Quartz2D使用（截屏）
+完成截屏功能的核心代码：`- (void)renderInContext:(CGContextRef)ctx;调用某个view的layer的renderInContext:`方法即可
 
+相关的步骤：
+1. 创建一个bitmap的上下文
+2. 将屏幕绘制带上下文中
+3. 从上下文中取出绘制好的图片
+4. 保存图片到相册 
+
+
+```objc
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+}
+
+- (IBAction)BtnClick:(UIButton *)sender {
+    
+    //延迟两秒保存
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        //获取图形上下文
+        //    UIGraphicsBeginImageContext(self.view.frame.size);
+        UIGraphicsBeginImageContext(self.contentView.frame.size);
+        //将view绘制到图形上下文中
+        
+        //    [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
+        [self.contentView.layer renderInContext:UIGraphicsGetCurrentContext()];
+     
+        
+        //将截屏保存到相册
+        UIImage *newImage=UIGraphicsGetImageFromCurrentImageContext();
+        
+        UIImageWriteToSavedPhotosAlbum(newImage,self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+    });
+}
+
+ - (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
+{
+    if (error) {
+        [MBProgressHUD showError:@"保存失败，请检查是否拥有相关的权限"];
+    }else
+    {
+//        [MBProgressHUD showMessage:@"保存成功！"];
+        [MBProgressHUD showSuccess:@"保存成功！"];
+    }
+}
+```
 
 
 
