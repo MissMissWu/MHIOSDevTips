@@ -30,7 +30,7 @@
 
 ### 自动布局
 * [Masonry](https://github.com/SnapKit/Masonry)
-* [SDAutoLayou](https://github.com/gsdios/SDAutoLayout)
+* [SDAutoLayout](https://github.com/gsdios/SDAutoLayout)
 
 
 ### 左滑Pop
@@ -52,6 +52,14 @@
 `对齐`
 * [XAlign](https://github.com/qfish/XAlign)
 
-``
+`JSON转模型属性`
+* [ESJsonFormat-Xcode](https://github.com/EnjoySR/ESJsonFormat-Xcode)
 
+`自动生成 1x 2x 3x 的图片`
+* [RTImageAssets](https://github.com/rickytan/RTImageAssets)
+
+`cocoapods`
+* [cocoapods-xcode-plugin](https://github.com/kattrali/cocoapods-xcode-plugin)
+
+`高亮显示正在编辑的行`
 
