@@ -114,8 +114,12 @@
 * [MKNetworkKit](https://github.com/MugunthKumar/MKNetworkKit)
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 
-### 
+### 图片展示
+`少量图片你展示`
+* [XHImageViewer](https://github.com/JackTeam/XHImageViewer)
 
+`图片拼接`
+* [StitchingImage](https://github.com/zhengjinghua/StitchingImage)
 
 
 
