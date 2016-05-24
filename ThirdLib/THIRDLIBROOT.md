@@ -1,4 +1,5 @@
 # iOS开发常用的第三方框架
+
 作者：[Mike_He](https://github.com/CoderMikeHe)   
   
 ### 图片轮播
@@ -14,7 +15,6 @@
 * [LBXScan](https://github.com/MxABC/LBXScan)   
 
 `生成二维码libqrencode`
-
 * [ios-qr-code-encoder](https://github.com/moqod/ios-qr-code-encoder)
 * [ProduceQRCodeDemo](https://github.com/MartinLi841538513/ProduceQRCodeDemo)
 
@@ -27,17 +27,18 @@
 * [SIAlertView](https://github.com/Sumi-Interactive/SIAlertView)
 * [BlockAlertsAnd-ActionSheets](https://github.com/gpambrozio/BlockAlertsAnd-ActionSheets)
 * [UIAlertView-Blocks](https://github.com/jivadevoe/UIAlertView-Blocks)
-
+* [DXAlertView](https://github.com/xiekw2010/DXAlertView) 
+* [TLAlertView](https://github.com/tLewisII/TLAlertView) 
+* [URBAlertView](https://github.com/u10int/URBAlertView) ,  **注意** IOS7和iOS9上 有潜在的bug 不建议使用
 ### 自动布局
 * [Masonry](https://github.com/SnapKit/Masonry)
 * [SDAutoLayout](https://github.com/gsdios/SDAutoLayout)
-
 
 ### 左滑Pop
 [FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture)
 
 ### XCode插件
-`管理Xcode插件`
+管理Xcode插件`
 * [Alcatraz](https://github.com/alcatraz/Alcatraz)  
 
 `注释`  
@@ -62,4 +63,87 @@
 * [cocoapods-xcode-plugin](https://github.com/kattrali/cocoapods-xcode-plugin)
 
 `高亮显示正在编辑的行`
+* [Backlight-for-XCode](https://github.com/limejelly/Backlight-for-XCode)
+
+·便捷导入头文件·
+* [Peckham](https://github.com/markohlebar/Peckham)
+
+`自动补全`
+* [FuzzyAutocompletePlugin](https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin)
+
+### BadgeView
+* [RKNotificationHub](https://github.com/cwRichardKim/RKNotificationHub)
+
+### iOS K线图
+* [chartee](https://github.com/zhiyu/chartee)  
+* [Cocoa-Charts](https://github.com/limccn/Cocoa-Charts) 
+* [stockChart](https://github.com/dangfm/stockChart)  
+* [core-plot](https://github.com/core-plot/core-plot)
+* [BBStockChartView](https://github.com/chenxiaoyu3/BBStockChartView) 
+
+
+### UICollectionViewFlowLayout  header 和 footer 悬停
+* [XLPlainFlowLayout](https://github.com/HebeTienCoder/XLPlainFlowLayout) 
+* [CSStickyHeaderFlowLayout](https://github.com/jamztang/CSStickyHeaderFlowLayout)
+
+### 正则表达式
+* [RegExCategories](https://github.com/bendytree/Objective-C-RegEx-Categories) 
+* [RegexKitLite](https://github.com/wezm/RegexKitLite)
+
+### 视频播放器
+* [KRVideoPlayer](https://github.com/36Kr-Mobile/KRVideoPlayer)
+* [ZFPlayer](https://github.com/renzifeng/ZFPlayer)
+* [AVPlayerDemo](https://github.com/mzds/AVPlayerDemo)
+* [WMPlayer](https://github.com/zhengwenming/WMPlayer)
+
+### iOS面试题+iOS9适配
+* [iOS面试题](https://github.com/ChenYilong/iOSInterviewQuestions)
+* [iOS9适配](https://github.com/ChenYilong/iOS9AdaptationTips)
+
+### 一个控制器控制多个控制器的的切换
+* [ICViewPager](https://github.com/iltercengiz/ICViewPager)
+
+### 抽屉效果
+* [MSDynamicsDrawerViewController](https://github.com/erichoracek/MSDynamicsDrawerViewController)  
+* [RESideMenu](https://github.com/romaonthego/RESideMenu)
+
+### View抖动
+* [AFViewShaker](https://github.com/ArtFeel/AFViewShaker)
+
+### HTTP
+* [MKNetworkKit](https://github.com/MugunthKumar/MKNetworkKit)
+* [AFNetworking](https://github.com/AFNetworking/AFNetworking)
+
+### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
