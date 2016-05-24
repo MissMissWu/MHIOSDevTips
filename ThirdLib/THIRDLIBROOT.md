@@ -30,4 +30,23 @@
 
 ### 自动布局
 * [Masonry](https://github.com/SnapKit/Masonry)
-* 
+* [SDAutoLayou](https://github.com/gsdios/SDAutoLayout)
+
+
+### 左滑Pop
+[FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture)
+
+### XCode插件
+`管理Xcode插件`
+* [Alcatraz](https://github.com/alcatraz/Alcatraz)  
+
+`注释`  
+* [VVDocumenter-Xcode ](https://github.com/onevcat/VVDocumenter-Xcode )
+
+`颜色`
+* [ColorSense-for-Xcode](https://github.com/omz/ColorSense-for-Xcode)
+
+`图片`
+* [KSImageNamed-Xcode](https://github.com/ksuther/KSImageNamed-Xcode)
+
+
