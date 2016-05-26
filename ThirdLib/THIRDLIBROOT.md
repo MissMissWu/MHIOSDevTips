@@ -121,6 +121,11 @@
 `图片拼接`
 * [StitchingImage](https://github.com/zhengjinghua/StitchingImage)
 
+### 动画 
+* [pop](https://github.com/facebook/pop)
+* [popping](https://github.com/schneiderandre/popping) **说明** 这个只是pop的事例程序
+* 
+
 
 
 
