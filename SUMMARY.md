@@ -11,5 +11,6 @@
 * [ThirdLib](ThirdLib/THIRDLIBROOT.md)
 * [Quartz2D](Quartz2D/Quartz2D.md)
 * [UIKit](UIKit/UIKit.md)
+   * UIGestureRecognizer
 * [尾声](ENDREADME.md)
 
