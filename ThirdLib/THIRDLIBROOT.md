@@ -1,13 +1,33 @@
 # iOS开发常用的第三方框架
 
 作者：[Mike_He](https://github.com/CoderMikeHe)   
-  
+ 
+---
 ### 图片轮播
-* [SDCycleScrollView](https://github.com/gsdios/SDCycleScrollView)
+* [SDCycleScrollView](https://github.com/gsdios/SDCycleScrollView)  
 
+### 图片选择器 
+* [MLSelectPhoto](https://github.com/MakeZL/MLSelectPhoto)
+* [ZYQAssetPickerController](https://github.com/heroims/ZYQAssetPickerController)
+* [QBImagePicker](https://github.com/questbeat/QBImagePicker)  
+
+### 图片展示
+`少量图片你展示`
+* [XHImageViewer](https://github.com/JackTeam/XHImageViewer)
+
+`图片拼接`
+* [StitchingImage](https://github.com/zhengjinghua/StitchingImage)
+
+
+### 图片裁剪
+* [RSKImageCropper](https://github.com/ruslanskorb/RSKImageCropper)
+* [PEPhotoCropEditor](https://github.com/kishikawakatsumi/PEPhotoCropEditor)
+* [TOCropViewController](https://github.com/TimOliver/TOCropViewController)
+---
 ### 播放GIF
 * [UIImageView-PlayGIF](https://github.com/yfme/UIImageView-PlayGIF)
 
+---
 ### 二维码
 `扫描二维码`
 * [MQRCodeReaderViewController](https://github.com/zhengjinghua/MQRCodeReaderViewController) 
@@ -18,10 +38,7 @@
 * [ios-qr-code-encoder](https://github.com/moqod/ios-qr-code-encoder)
 * [ProduceQRCodeDemo](https://github.com/MartinLi841538513/ProduceQRCodeDemo)
 
-### 图片选择器 
-* [MLSelectPhoto](https://github.com/MakeZL/MLSelectPhoto)
-* [ZYQAssetPickerController](https://github.com/heroims/ZYQAssetPickerController)
-* [QBImagePicker](https://github.com/questbeat/QBImagePicker)  
+
 
 ### UIAlertView
 * [SIAlertView](https://github.com/Sumi-Interactive/SIAlertView)
@@ -114,23 +131,26 @@
 * [MKNetworkKit](https://github.com/MugunthKumar/MKNetworkKit)
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 
-### 图片展示
-`少量图片你展示`
-* [XHImageViewer](https://github.com/JackTeam/XHImageViewer)
-
-`图片拼接`
-* [StitchingImage](https://github.com/zhengjinghua/StitchingImage)
 
 ### 动画 
 * [pop](https://github.com/facebook/pop)
 * [popping](https://github.com/schneiderandre/popping) **说明** 这个只是pop的事例程序
 * 
+---
 
-
-
-
-
-
+### ProgressView(进度条)
+* [LFRoundProgressView](https://github.com/shiqiang124/LFRoundProgressView)
+* [M13ProgressSuite](https://github.com/Marxon13/M13ProgressSuite)
+* [NJKWebViewProgress](https://github.com/ninjinkun/NJKWebViewProgress)
+* [MRProgress](https://github.com/mrackwitz/MRProgress)
+* [DACircularProgress](https://github.com/danielamitay/DACircularProgress)
+* 
+---
+### HUD
+* [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD)
+* [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
+* [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)
+* [KVNProgress](https://github.com/AssistoLab/KVNProgress)
 
 
 
