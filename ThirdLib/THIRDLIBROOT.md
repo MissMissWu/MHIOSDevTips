@@ -5,6 +5,8 @@
 ---
 ### 图片轮播
 * [SDCycleScrollView](https://github.com/gsdios/SDCycleScrollView)  
+* [HYBLoopScrollView](https://github.com/CoderJackyHuang/HYBLoopScrollView)
+
 
 ### 图片选择器 
 * [MLSelectPhoto](https://github.com/MakeZL/MLSelectPhoto)
