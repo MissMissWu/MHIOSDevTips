@@ -152,6 +152,9 @@
 * [JGProgressHUD](https://github.com/JonasGessner/JGProgressHUD)
 * [KVNProgress](https://github.com/AssistoLab/KVNProgress)
 
+---
+### SegmentedControl
+* [DZNSegmentedControl](https://github.com/dzenbot/DZNSegmentedControl)
 
 
 
