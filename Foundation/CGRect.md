@@ -43,9 +43,10 @@ frame和bounds是UIView中的两个属性(property)。
     return CGRectMake(0,0,self.frame.size.width,self.frame.size.height);
 }
 ```
-
+![frameAndBounds](http://pic002.cnblogs.com/images/2011/315766/2011081514215034.png)
+<br/>
   * frame指的是：该view在父view坐标系统中的位置和大小。（参照点是父亲的坐标系统）
   * bounds指的是：该view在本身坐标系统中 的位置和大小。（参照点是本身坐标系统） <br />    
   
-  ![frameAndBounds](http://pic002.cnblogs.com/images/2011/315766/2011081514215034.png)
+  
 
