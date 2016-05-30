@@ -14,6 +14,6 @@
    * [UIGestureRecognizer](UIKit/UIGestureRecognizer.md)
    * [UIBezierPath](UIKit/UIBezierPath.md)
 * [Foundation](Foundation/Foundation.md)
-   * CGRect
+   * [CGRect](Foundation/CGRect.md)
 * [尾声](ENDREADME.md)
 
