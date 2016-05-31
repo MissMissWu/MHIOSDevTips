@@ -329,8 +329,10 @@ startProgress：动画起点(在整体动画的百分比)
 endProgress：动画终点(在整体动画的百分比)
 
 
-##### 参考链接
 
+
+##### 参考链接
+* <http://www.cnblogs.com/wendingding/p/3801454.html>
 
 
 
