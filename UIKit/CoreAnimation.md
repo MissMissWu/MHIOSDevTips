@@ -198,27 +198,138 @@ toValue：keyPath相应属性的结束值
     [self.myLayer addAnimation:anima forKey:nil];
 }
 ```
+**提示：**如果要让图形以2D的方式旋转，只需要把CATransform3DMakeRotation在z方向上的值改为1即可。  
+`anima.toValue=[NSValue valueWithCATransform3D:CATransform3DMakeRotation(M_PI_2+M_PI_4, 1, 1, 0)];`
+
+##### 参考代码
+* <http://www.cnblogs.com/wendingding/p/3801157.html>
+
+### CAKeyframeAnimation
+##### 简单介绍
+是CApropertyAnimation的子类，跟CABasicAnimation的区别是：CABasicAnimation只能从一个数值(fromValue)变到另一个数值(toValue)，而CAKeyframeAnimation会使用一个NSArray保存这些数值
+
+属性解析：
+
+** values：**就是上述的NSArray对象。里面的元素称为”关键帧”(keyframe)。动画对象会在指定的时间(duration)内，依次显示values数组中的每一个关键帧
+
+** path：**可以设置一个CGPathRef\CGMutablePathRef,让层跟着路径移动。path只对CALayer的anchorPoint和position起作用。如果你设置了path，那么values将被忽略
+
+** keyTimes：**可以为对应的关键帧指定对应的时间点,其取值范围为0到1.0,keyTimes中的每一个时间值都对应values中的每一帧.当keyTimes没有设置的时候,各个关键帧的时间是平分的
+
+说明：CABasicAnimation可看做是最多只有2个关键帧的CAKeyframeAnimation
+
+
+代码示例:
+```objc
+    //1.创建核心动画
+    CAKeyframeAnimation *keyAnima=[CAKeyframeAnimation animation];
+    //平移
+    keyAnima.keyPath=@"position";
+    //1.1告诉系统要执行什么动画
+    NSValue *value1=[NSValue valueWithCGPoint:CGPointMake(100, 100)];
+    NSValue *value2=[NSValue valueWithCGPoint:CGPointMake(200, 100)];
+    NSValue *value3=[NSValue valueWithCGPoint:CGPointMake(200, 200)];
+    NSValue *value4=[NSValue valueWithCGPoint:CGPointMake(100, 200)];
+    NSValue *value5=[NSValue valueWithCGPoint:CGPointMake(100, 100)];
+    keyAnima.values=@[value1,value2,value3,value4,value5];
+    //1.2设置动画执行完毕后，不删除动画
+    keyAnima.removedOnCompletion=NO;
+    //1.3设置保存动画的最新状态
+    keyAnima.fillMode=kCAFillModeForwards;
+    //1.4设置动画执行的时间
+    keyAnima.duration=4.0;
+    //1.5设置动画的节奏
+    keyAnima.timingFunction=[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    
+    //设置代理，开始—结束
+//    keyAnima.delegate=self;
+    //2.添加核心动画
+    [self.myLayer addAnimation:keyAnima forKey:nil];
+```
+
+补充：设置动画的节奏
+
+ ![](http://images.cnitblog.com/i/450136/201406/211931059267032.png)
+ 
+ 
+ 使用path）让layer在指定的路径上移动（画圆）：
+ ```objc
+  //1.创建核心动画
+    CAKeyframeAnimation *keyAnima=[CAKeyframeAnimation animation];
+    //平移
+    keyAnima.keyPath=@"position";
+    //1.1告诉系统要执行什么动画
+    //创建一条路径
+    CGMutablePathRef path=CGPathCreateMutable();
+    //设置一个圆的路径
+    CGPathAddEllipseInRect(path, NULL, CGRectMake(150, 100, 100, 100));
+    
+    keyAnima.path=path;
+    
+    //有create就一定要有release
+    CGPathRelease(path);
+    //1.2设置动画执行完毕后，不删除动画
+    keyAnima.removedOnCompletion=NO;
+    //1.3设置保存动画的最新状态
+    keyAnima.fillMode=kCAFillModeForwards;
+    //1.4设置动画执行的时间
+    keyAnima.duration=5.0;
+    //1.5设置动画的节奏
+    keyAnima.timingFunction=[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    
+    //设置代理，开始—结束
+//    keyAnima.delegate=self;
+    //2.添加核心动画
+    [self.myLayer addAnimation:keyAnima forKey:nil];
+ ```
+ **说明**：可以通过path属性，让layer在指定的轨迹上运动。
 
 
 
+//停止self.customView.layer上名称标示为wendingding的动画
+` [self.customView.layer removeAnimationForKey:@"#动画名称#"];`
+
+##### 图片抖动
+代码示例：
+```objc
+//1.创建核心动画
+    CAKeyframeAnimation *keyAnima=[CAKeyframeAnimation animation];
+    keyAnima.keyPath=@"transform.rotation";
+    //设置动画时间
+    keyAnima.duration=0.1;
+    //设置图标抖动弧度
+    //把度数转换为弧度  度数/180*M_PI
+    keyAnima.values=@[@(-angle2Radian(4)),@(angle2Radian(4)),@(-angle2Radian(4))];
+    //设置动画的重复次数(设置为最大值)
+    keyAnima.repeatCount=MAXFLOAT;
+    
+    keyAnima.fillMode=kCAFillModeForwards;
+    keyAnima.removedOnCompletion=NO;
+    //2.添加动画
+    [self.myLayer addAnimation:keyAnima forKey:nil];
+```
+
+##### 参考链接
+* <http://www.cnblogs.com/wendingding/p/3801330.html>
 
 
+### CATransition 转场动画
+CAAnimation的子类，用于做转场动画，能够为层提供移出屏幕和移入屏幕的动画效果。iOS比Mac OS X的转场动画效果少一点
+
+UINavigationController就是通过CATransition实现了将控制器的视图推入屏幕的动画效果
+
+属性解析:
+
+type：动画过渡类型
+
+subtype：动画过渡方向
+
+startProgress：动画起点(在整体动画的百分比)
+
+endProgress：动画终点(在整体动画的百分比)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+##### 参考链接
 
 
 
