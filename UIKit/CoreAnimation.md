@@ -162,8 +162,42 @@ toValue：keyPath相应属性的结束值
     * anima.fillMode=kCAFillModeForwards;   // 1.3设置保存动画的最新状态
 * byValue和toValue的区别，前者是在当前的位置上增加多少，后者是到指定的位置。
 
+##### 缩放动画
+代码实例
+```objc
+    // 获取动画对象
+    CABasicAnimation *anima = [CABasicAnimation animationWithKeyPath:@"bounds"];
+    //1.1设置动画执行时间
+    anima.duration=2.0 ;
+    //1.2设置动画执行完毕后不删除动画
+    anima.removedOnCompletion=NO;
+    //1.3设置保存动画的最新状态
+    anima.fillMode=kCAFillModeForwards;
+    //1.4修改属性，执行动画
+    anima.toValue=[NSValue valueWithCGRect:CGRectMake(0, 0, 200, 200)];
+    //2.添加动画到layer
+    [self.myLayer addAnimation:anima forKey:nil];
+```
 
-
+##### 旋转动画
+代码示例
+```objc
+- (void) transformViewAnimation
+{
+    CABasicAnimation *anima = [CABasicAnimation animationWithKeyPath:@"transform"];
+    
+    //1.1设置动画执行时间
+    anima.duration=2.0 ;
+    //1.2设置动画执行完毕后不删除动画
+    anima.removedOnCompletion=NO;
+    //1.3设置保存动画的最新状态
+    anima.fillMode=kCAFillModeForwards;
+    //1.4修改属性，执行动画
+    anima.toValue=[NSValue valueWithCATransform3D:CATransform3DMakeRotation(M_PI_2+M_PI_2, 1, 1, 0)];
+    //2.添加动画到layer
+    [self.myLayer addAnimation:anima forKey:nil];
+}
+```
 
 
 
