@@ -329,12 +329,112 @@ startProgress：动画起点(在整体动画的百分比)
 endProgress：动画终点(在整体动画的百分比)
 
 
+代码示例：
+```objc
+//1.创建核心动画
+    CATransition *ca=[CATransition animation];
+    
+    //1.1告诉要执行什么动画
+    //1.2设置过度效果
+    ca.type=@"cube";
+    //1.3设置动画的过度方向（向右）
+    ca.subtype=kCATransitionFromRight;
+    //1.4设置动画的时间
+    ca.duration=2.0;
+    //1.5设置动画的起点
+    ca.startProgress=0.5;
+    //1.6设置动画的终点
+//    ca.endProgress=0.5;
+    
+    //2.添加动画
+    [self.iconView.layer addAnimation:ca forKey:nil];
+```
 
+
+```objc
+CATransition比较强大，一般可以使用CATransition模拟UIView的动画。
+
+/* 过渡效果
+fade     //交叉淡化过渡(不支持过渡方向)
+push     //新视图把旧视图推出去
+moveIn   //新视图移到旧视图上面
+reveal   //将旧视图移开,显示下面的新视图
+cube     //立方体翻滚效果
+oglFlip  //上下左右翻转效果
+suckEffect   //收缩效果，如一块布被抽走(不支持过渡方向)
+rippleEffect //滴水效果(不支持过渡方向)
+pageCurl     //向上翻页效果
+pageUnCurl   //向下翻页效果
+cameraIrisHollowOpen  //相机镜头打开效果(不支持过渡方向)
+cameraIrisHollowClose //相机镜头关上效果(不支持过渡方向)
+*/
+ 
+/* 过渡方向
+fromRight;
+fromLeft;
+fromTop;
+fromBottom;
+*/
+
+CATransition *animation = [CATransition animation];
+animation.delegate = self;
+animation.duration = 0.5f; //动画时长
+animation.timingFunction = UIViewAnimationCurveEaseInOut;
+animation.fillMode = kCAFillModeForwards;
+animation.type = @”cube”; //过度效果
+animation.subtype = @”formLeft”; //过渡方向
+animation.startProgress = 0.0 //动画开始起点(在整体动画的百分比)
+animation.endProgress = 1.0;  //动画停止终点(在整体动画的百分比)
+animation.removedOnCompletion = NO;
+[self.view.layer addAnimation:animation forKey:@"animation"];
+
+
+```
 
 ##### 参考链接
 * <http://www.cnblogs.com/wendingding/p/3801454.html>
+* <http://www.cnblogs.com/pengyingh/articles/2339420.html>
 
 
 
+### CAAnimationGroup 组动画
+CAAnimation的子类，可以保存一组动画对象，将CAAnimationGroup对象加入层后，组中所有动画对象可以同时并发运行
 
+属性解析：
+
+animations：用来保存一组动画对象的NSArray
+
+默认情况下，一组动画对象是同时运行的，也可以通过设置动画对象的beginTime属性来更改动画的开始时间
+
+
+```objc
+// 平移动画
+    CABasicAnimation *a1 = [CABasicAnimation animation];
+    a1.keyPath = @"transform.translation.y";
+    a1.toValue = @(100);
+    // 缩放动画
+    CABasicAnimation *a2 = [CABasicAnimation animation];
+    a2.keyPath = @"transform.scale";
+    a2.toValue = @(0.0);
+    // 旋转动画
+    CABasicAnimation *a3 = [CABasicAnimation animation];
+    a3.keyPath = @"transform.rotation";
+    a3.toValue = @(M_PI_2);
+    
+    // 组动画
+    CAAnimationGroup *groupAnima = [CAAnimationGroup animation];
+    
+    groupAnima.animations = @[a1, a2, a3];
+    
+    //设置组动画的时间
+    groupAnima.duration = 2;
+    groupAnima.fillMode = kCAFillModeForwards;
+    groupAnima.removedOnCompletion = NO;
+    
+    [self.iconView.layer addAnimation:groupAnima forKey:nil];
+```
+
+
+##### 参考链接
+* <http://www.csdn123.com/html/blogs/20131107/94198.htm>
 
