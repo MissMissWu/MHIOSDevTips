@@ -118,6 +118,7 @@
 ### iOS面试题+iOS9适配
 * [iOS面试题](https://github.com/ChenYilong/iOSInterviewQuestions)
 * [iOS9适配](https://github.com/ChenYilong/iOS9AdaptationTips)
+* [iOS面试问题](https://github.com/lzyy/iOS-Developer-Interview-Questions)
 
 ### 一个控制器控制多个控制器的的切换
 * [ICViewPager](https://github.com/iltercengiz/ICViewPager)
