@@ -1,5 +1,9 @@
 # Quartz2D
 
+### 学习链接
+* [IOS CGContext用法](http://blog.sina.com.cn/s/blog_6853c0db0101imt7.html)
+
+
 ### Quartz2D 绘图
 画线的三个步骤：
 1. 获取上下文
