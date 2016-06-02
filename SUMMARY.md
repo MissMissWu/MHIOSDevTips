@@ -15,6 +15,7 @@
    * [UIBezierPath](UIKit/UIBezierPath.md)
    * [UIView](UIKit/UIView.md)
    * [CoreAnimation](UIKit/CoreAnimation.md)
+   * CALayer
 * [Foundation](Foundation/Foundation.md)
    * [CGRect](Foundation/CGRect.md)
 * [Blog](Blog.md)
