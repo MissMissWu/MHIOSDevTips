@@ -57,3 +57,7 @@ typedef NS_ENUM(NSInteger, NSWritingDirection) {
     textView.attributedText = [[NSAttributedString alloc] initWithString:textView.text attributes:attributes];
 
 ```
+
+## 参考链接
+* <http://blog.csdn.net/u010241322/article/details/40894069>
+* 
