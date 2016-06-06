@@ -18,7 +18,7 @@
    * [CALayer](UIKit/CALayer.md)
 * [Foundation](Foundation/Foundation.md)
    * [CGRect](Foundation/CGRect.md)
-   * NSParagraphStyle
+   * [NSParagraphStyle](Foundation/NSParagraphStyle.md)
 * [Blog](Blog.md)
 * [尾声](ENDREADME.md)
 
