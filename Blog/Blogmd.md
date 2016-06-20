@@ -11,3 +11,4 @@
 * [CoreGraphics QuartzCore CGContextTranslateCTM 用法](http://www.tuicool.com/articles/Er6VNf6)
 * [sunnyxx的技术博客](http://blog.sunnyxx.com/)
 * [ibireme ](http://blog.ibireme.com/author/ibireme/page/2/)
+* [微信支付各种坑](http://www.mamicode.com/info-detail-1008016.html)
