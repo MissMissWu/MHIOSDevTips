@@ -6,5 +6,6 @@
 * [Git常用命令-4](http://justcoding.iteye.com/blog/1830388)
 * [Git常用命令-5](http://www.jb51.net/article/55442.htm)
 * [Git常用命令-6](http://www.cnblogs.com/cspku/articles/Git_cmds.html)
+* [Git查看、删除、重命名远程分支和tag](http://blog.csdn.net/majiakun1/article/details/50730457)
 ####
 
