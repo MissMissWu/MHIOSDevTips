@@ -19,4 +19,5 @@
 * [刘彦玮的技术博客](http://liuyanwei.jumppo.com/)
 * [Mac 应用](https://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=2652546186&idx=5&sn=c0bcca2daefbc937649db127b59352cd&scene=0&key=77421cf58af4a653a5f8847824152d1a9bf91fec87821b316e0f0d91186a20b2cd6ca8a2292c6176d46418d069f4c059&ascene=0&uin=MjUxNDIyODYxMg%3D%3D&devicetype=iMac14%2C1+OSX+OSX+10.11.4+build(15E65)&version=11020201&pass_ticket=RbxhkQuKLBzuLvvVhnRKCHvWfuemcyfbn727yqzD5XFOVEJc0qKHUlNEvwq%2B9vZa)
 * [10款你可能不知道的精致Mac应用](https://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=2652546186&idx=5&sn=c0bcca2daefbc937649db127b59352cd&scene=0&key=77421cf58af4a653a5f8847824152d1a9bf91fec87821b316e0f0d91186a20b2cd6ca8a2292c6176d46418d069f4c059&ascene=0&uin=MjUxNDIyODYxMg%3D%3D&devicetype=iMac14%2C1+OSX+OSX+10.11.4+build(15E65)&version=11020201&pass_ticket=RbxhkQuKLBzuLvvVhnRKCHvWfuemcyfbn727yqzD5XFOVEJc0qKHUlNEvwq%2B9vZa)
+* [iOS7中容易被忽视的新特性](http://www.cocoachina.com/industry/20140117/7715.html)
 * 
