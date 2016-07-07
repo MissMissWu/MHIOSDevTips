@@ -21,4 +21,5 @@
 * [10款你可能不知道的精致Mac应用](https://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=2652546186&idx=5&sn=c0bcca2daefbc937649db127b59352cd&scene=0&key=77421cf58af4a653a5f8847824152d1a9bf91fec87821b316e0f0d91186a20b2cd6ca8a2292c6176d46418d069f4c059&ascene=0&uin=MjUxNDIyODYxMg%3D%3D&devicetype=iMac14%2C1+OSX+OSX+10.11.4+build(15E65)&version=11020201&pass_ticket=RbxhkQuKLBzuLvvVhnRKCHvWfuemcyfbn727yqzD5XFOVEJc0qKHUlNEvwq%2B9vZa)
 * [iOS7中容易被忽视的新特性](http://www.cocoachina.com/industry/20140117/7715.html)
 * [iOS开发之AFNetworking 3.0.4使用](http://www.jianshu.com/p/11bb0d4dc649)
+* [让您的Xcode键字如飞](https://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=2652546276&idx=1&sn=a8bf3883edda26bb24fc4dcb3c0cafc1&scene=0&key=77421cf58af4a6537a126280f18e3a03bbd7b5882f5f81341a2a1408f79be5cda197b66b1f8b33279c9d064d33b59440&ascene=0&uin=MjUxNDIyODYxMg%3D%3D&devicetype=iMac14%2C1+OSX+OSX+10.11.4+build(15E65)&version=11020201&pass_ticket=5MBNRTHH4vibOzhSCGToq0bbhRdVxYcyJBzmf4%2FzDsG3IPl8POl3p83WjCn5VBza)
 * 
