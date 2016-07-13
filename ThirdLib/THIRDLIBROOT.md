@@ -3,6 +3,14 @@
 作者：[Mike_He](https://github.com/CoderMikeHe)   
  
 ---
+
+### 第三方资源
+* [快快快！27个提升效率的iOS开源库推荐](http://www.csdn.net/article/2015-07-21/2825264-27-ios-open-source-libraries/5#0-tsina-1-41498-397232819ff9a47a7b7e80a40613cfe1)
+* 
+
+
+
+
 ### 图片轮播
 * [SDCycleScrollView](https://github.com/gsdios/SDCycleScrollView)  
 * [HYBLoopScrollView](https://github.com/CoderJackyHuang/HYBLoopScrollView)
