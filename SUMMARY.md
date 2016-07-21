@@ -22,6 +22,6 @@
     * [NSAttributedString](Foundation/NSAttributedString.md)
 * [Blog](Blog/Blogmd.md)
 * [NSURLSession](NSURLSession/NSURLSession.md)
-* [ErrorBlog](errorblog.md)
+* [ErrorBlog](ErrorBlog.md)
 * [尾声](ENDREADME.md)
 
