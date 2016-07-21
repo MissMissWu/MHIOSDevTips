@@ -106,7 +106,8 @@ end
 
   * source：pod的地址和tag
 
-  * source\_files：pod在工程中的所在目录，如果有多个不同的目录，则写成这种形式:’floder1…’,’floder2….’,’….’ 
+  * source\_files：pod在工程中的所在目录，如果有多个不同的目录，则写成这种形式:’floder1…’,’floder2….’,’….’
+
   * requires\_arc：是否是ARC。  
     **注意**: source\_files中指定的.h .m文件一定不要引用source\_files以外文件中的变量，头文件等，不然后面会出错,会说的source\_files路径下 `xxxx.h not found` 。source\_files中的文件应该是独立的模块。
 
@@ -143,7 +144,7 @@ end
 * [cocoapods的使用](http://www.cnblogs.com/wayne23/p/3912882.html)
 
 * [cocapods的使用以及常用问题](http://www.jianshu.com/p/6e5c0f78200a)
+
+* [cocoapods的使用说明](http://blog.csdn.net/jjmm2009/article/details/41944959)
 * 
-
-
 
