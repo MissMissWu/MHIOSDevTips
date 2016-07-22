@@ -151,5 +151,6 @@ end
 
 * [cocoapods的使用说明](http://blog.csdn.net/jjmm2009/article/details/41944959)
 
-* cocoapods使用
+* [cocoapods注意事项](http://www.jianshu.com/p/bdf9f66740c6)
+* 
 
