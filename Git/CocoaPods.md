@@ -121,6 +121,7 @@ end
 * [http:\/\/www.jianshu.com\/p\/1139a603f413](http://www.jianshu.com/p/1139a603f413)
 * [.spec的使用](http://ishalou.com/blog/2012/10/16/how-to-create-a-cocoapods-spec-file/)
 * [cocoaPods详解](https://yq.aliyun.com/articles/44663)
+* [.spec文件的编写](http://my.oschina.net/u/727843/blog/392784)
 * 
 
 ### 拓展
@@ -152,5 +153,6 @@ end
 * [cocoapods的使用说明](http://blog.csdn.net/jjmm2009/article/details/41944959)
 
 * [cocoapods注意事项](http://www.jianshu.com/p/bdf9f66740c6)
+
 * 
 
