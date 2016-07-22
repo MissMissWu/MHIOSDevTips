@@ -112,12 +112,14 @@ end
     **注意**: source\_files中指定的.h .m文件一定不要引用source\_files以外文件中的变量，头文件等，不然后面会出错,会说的source\_files路径下 `xxxx.h not found` 。source\_files中的文件应该是独立的模块。
 
 
+
 ##### 参考链接
 
 * [http:\/\/www.bkjia.com\/Androidjc\/1005147.html](http://www.bkjia.com/Androidjc/1005147.html)
 * [http:\/\/www.cnblogs.com\/wengzilin\/p\/4742530.html](http://www.cnblogs.com/wengzilin/p/4742530.html)
 * [http:\/\/www.cocoachina.com\/ios\/20150228\/11206.html](http://www.cocoachina.com/ios/20150228/11206.html)
 * [http:\/\/www.jianshu.com\/p\/1139a603f413](http://www.jianshu.com/p/1139a603f413)
+* [.spec的使用](http://ishalou.com/blog/2012/10/16/how-to-create-a-cocoapods-spec-file/)
 
 ### 拓展
 
@@ -146,5 +148,6 @@ end
 * [cocapods的使用以及常用问题](http://www.jianshu.com/p/6e5c0f78200a)
 
 * [cocoapods的使用说明](http://blog.csdn.net/jjmm2009/article/details/41944959)
+
 * 
 
