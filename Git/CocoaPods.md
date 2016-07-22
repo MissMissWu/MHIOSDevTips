@@ -120,6 +120,8 @@ end
 * [http:\/\/www.cocoachina.com\/ios\/20150228\/11206.html](http://www.cocoachina.com/ios/20150228/11206.html)
 * [http:\/\/www.jianshu.com\/p\/1139a603f413](http://www.jianshu.com/p/1139a603f413)
 * [.spec的使用](http://ishalou.com/blog/2012/10/16/how-to-create-a-cocoapods-spec-file/)
+* [cocoaPods详解](https://yq.aliyun.com/articles/44663)
+* 
 
 ### 拓展
 
