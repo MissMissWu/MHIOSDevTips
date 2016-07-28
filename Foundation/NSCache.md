@@ -50,4 +50,4 @@ cache:willEvictObject
 * [iOS---NSCache的简单使用
 ](http://www.2cto.com/kf/201503/385497.html)
 
-* 
+* [Objective-C中的缓存](http://www.15yan.com/topic/yi-dong-kai-fa-na-dian-shi/45toOUzFGlr/)
