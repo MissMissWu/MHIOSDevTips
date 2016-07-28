@@ -23,7 +23,6 @@
    * [NSAttributedString](Foundation/NSAttributedString.md)
    * [NSCache](Foundation/NSCache.md)
    * [NSTimer](Foundation/NSTimer.md)
-   * [dd](Foundation/dd/dd.md)
 * [Blog](Blog/Blogmd.md)
 * [NSURLSession](NSURLSession/NSURLSession.md)
 * [ErrorBlog](ErrorBlog.md)
