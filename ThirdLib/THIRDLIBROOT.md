@@ -57,6 +57,10 @@
 * [DXAlertView](https://github.com/xiekw2010/DXAlertView) 
 * [TLAlertView](https://github.com/tLewisII/TLAlertView) 
 * [URBAlertView](https://github.com/u10int/URBAlertView) ,  **注意** IOS7和iOS9上 有潜在的bug 不建议使用
+* [PSTAlertController](https://github.com/steipete/PSTAlertController)
+
+
+
 ### 自动布局
 * [Masonry](https://github.com/SnapKit/Masonry)
 * [SDAutoLayout](https://github.com/gsdios/SDAutoLayout)
