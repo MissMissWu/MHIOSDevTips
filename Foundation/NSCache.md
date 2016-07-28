@@ -13,13 +13,14 @@ NSCache 的 Key 只是做强引用，不需要实现 NSCopying 协议
 
 属性
 
-name delegate totalCostLimit
+name delegate 
+totalCostLimit
 缓存空间的最大总成本，超出上限会自动回收对象 默认值是 0，表示没有限制
 countLimit
 
-能够缓存对象的最大数量 默认值是 0，表示没有限制
-evictsObjectsWithDiscardedContent
+能够缓存对象的最大数量 默认值是 0，表示没有限制  
 
+evictsObjectsWithDiscardedContent
 标示缓存是否回收废弃的内容 默认值是 YES，表示自动回收
 方法
 
