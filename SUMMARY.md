@@ -22,6 +22,7 @@
    * [NSParagraphStyle](Foundation/NSParagraphStyle.md)
    * [NSAttributedString](Foundation/NSAttributedString.md)
    * [NSCache](Foundation/NSCache.md)
+   * NSTimer
 * [Blog](Blog/Blogmd.md)
 * [NSURLSession](NSURLSession/NSURLSession.md)
 * [ErrorBlog](ErrorBlog.md)
