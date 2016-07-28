@@ -16,6 +16,7 @@
    * [UIView](UIKit/UIView.md)
    * [CoreAnimation](UIKit/CoreAnimation.md)
    * [CALayer](UIKit/CALayer.md)
+   * UIAlertController
 * [Foundation](Foundation/Foundation.md)
    * [CGRect](Foundation/CGRect.md)
    * [NSParagraphStyle](Foundation/NSParagraphStyle.md)
