@@ -10,7 +10,7 @@
 * [文顶顶播客园](http://www.cnblogs.com/wendingding)
 * [Transforms CTM, 转换矩阵](http://donbe.blog.163.com/blog/static/138048021201061054243442/)
 * [CoreGraphics QuartzCore CGContextTranslateCTM 用法](http://www.tuicool.com/articles/Er6VNf6)
-* [sunnyxx的技术博客](http://blog.sunnyxx.com/)
+* [sunnyxx的技术博客](http://blog.sunnyxx.com/) --- [**UITableView-FDTemplateLayoutCell的作者**](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell)
 * [ibireme ](http://blog.ibireme.com/author/ibireme/page/2/)
 * [微信支付各种坑](http://www.mamicode.com/info-detail-1008016.html)
 * [一片枫叶](http://www.cnblogs.com/smileEvday/)
