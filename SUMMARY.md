@@ -30,7 +30,7 @@
 * [MyStudy](MyStudy.md)
    * [Block](MyStudy/Block.md)
    * [Masonry](MyStudy/Masonry.md)
-   * Regex
+   * [Regex](MyStudy/Regex.md)
 * [ErrorBlog](ErrorBlog.md)
 * [尾声](ENDREADME.md)
 
