@@ -33,7 +33,11 @@
 * [富文本相关](http://www.2cto.com/kf/201606/517522.html)
 
 * [一蓑烟雨任平生_liu_xun的技术博客](http://blog.csdn.net/u013087513)
+
+## 大牛社区
+* <http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=404973845&idx=1&sn=a642c0a79c2a0bf3ad766387a426fcfc&scene=21#wechat_redirect>
 * 
+
 ## 面试题
 
 * [知乎iOS面试题](http://www.zhihu.com/question/19604641?sort=created&page=3)
