@@ -36,6 +36,10 @@
 
 * [一蓑烟雨任平生_liu_xun的技术博客](http://blog.csdn.net/u013087513)
 
+* [polobymulberry的技术播客](http://www.cnblogs.com/polobymulberry/)
+
+
+
 ## 大牛社区
 * <http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=404973845&idx=1&sn=a642c0a79c2a0bf3ad766387a426fcfc&scene=21#wechat_redirect>
 * 
