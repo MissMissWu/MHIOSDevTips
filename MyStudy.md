@@ -23,4 +23,8 @@
 
 * [ios时间那点事--NSCalendar NSDateComponents](http://my.oschina.net/yongbin45/blog/156181)
 
+* [iOS10个实用小技巧（总有你不知道的和你会用到的）](http://www.jianshu.com/p/a3156826c27c)
+
+* [Xcode因为证书问题经常报的那些](http://www.jianshu.com/p/b10680a32d35)
+
 * 
