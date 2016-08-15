@@ -38,6 +38,9 @@
 
 * [polobymulberry的技术播客](http://www.cnblogs.com/polobymulberry/)
 
+* [panny_92 的技术播客](http://www.360doc.com/userhome/20559082)
+
+* 
 
 
 ## 大牛社区
