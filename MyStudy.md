@@ -27,4 +27,6 @@
 
 * [Xcode因为证书问题经常报的那些](http://www.jianshu.com/p/b10680a32d35)
 
-* 
+* [iOS之下拉放大，上推缩小，一个方法搞定](http://www.jianshu.com/p/eae68e8e0838)
+
+*
