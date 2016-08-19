@@ -29,4 +29,5 @@
 
 * [iOS之下拉放大，上推缩小，一个方法搞定](http://www.jianshu.com/p/eae68e8e0838)
 
-*
+* [各种图标图Demo](http://echarts.baidu.com/examples.html)
+
