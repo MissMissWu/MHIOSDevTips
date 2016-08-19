@@ -31,3 +31,6 @@
 
 * [各种图标图Demo](http://echarts.baidu.com/examples.html)
 
+* [iOS 开发中你是否遇到这些经验问题(一)](http://www.jianshu.com/p/8207621ddcaa)
+
+* 
