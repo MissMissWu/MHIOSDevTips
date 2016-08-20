@@ -33,4 +33,6 @@
 
 * [iOS 开发中你是否遇到这些经验问题(一)](http://www.jianshu.com/p/8207621ddcaa)
 
-* 
+* [iOS开发几年了，你清楚OC中的这些东西么!!!](http://www.jianshu.com/p/bd496d5ef150)
+
+
