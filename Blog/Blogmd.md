@@ -40,7 +40,7 @@
 
 * [panny_92 的技术播客](http://www.360doc.com/userhome/20559082)
 
-* 
+* [Rain Main的技术播客](http://www.cnblogs.com/rainman/)
 
 
 ## 大牛社区
