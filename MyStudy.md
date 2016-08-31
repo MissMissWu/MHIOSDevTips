@@ -37,5 +37,8 @@
 
 * [21个优质Swift开源App](http://www.jianshu.com/p/a5b6d5efce88)
 
+* [Github上的iOS App源码 (中文)](http://www.jianshu.com/p/06753d40d3d9)
+
+* [Leancloud](https://leancloud.cn/)
 
 
