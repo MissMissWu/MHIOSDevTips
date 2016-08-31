@@ -42,6 +42,9 @@
 
 * [Rain Main的技术播客](http://www.cnblogs.com/rainman/)
 
+* [glaivelee 的技术播客](http://www.cnblogs.com/glaivelee/)
+
+* [W3School 学习网站](http://www.w3school.com.cn/index.html)
 
 ## 大牛社区
 * <http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=404973845&idx=1&sn=a642c0a79c2a0bf3ad766387a426fcfc&scene=21#wechat_redirect>
