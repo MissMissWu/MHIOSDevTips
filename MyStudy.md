@@ -41,4 +41,17 @@
 
 * [Leancloud](https://leancloud.cn/)
 
+* iOS 关于导航两侧按钮距离左右侧边距的修改
+  - <http://www.jianshu.com/p/5c74dfc94deb>
+  - <http://blog.csdn.net/woaifen3344/article/details/24793087>
+
+* iOS 添加Xib文件，并与控制器view controller关联
+  - <http://blog.csdn.net/sharmir/article/details/50606340>
+
+* 在 iOS 应用中直接跳转到 AppStore 的方法
+  - <http://blog.csdn.net/kkk0526/article/details/9836369>
+  - <http://blog.csdn.net/hu_songsong/article/details/48973621>
+
+*
+
 
