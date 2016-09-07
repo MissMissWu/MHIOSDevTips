@@ -65,7 +65,7 @@ presentedViewController和presentingViewController，他们分别是被present�
 * UIImage图片处理，旋转、截取、平铺、缩放等操作，持续更新中。
   - <http://www.jianshu.com/p/9ab1205f5166>
 
-* iOS H5容器的一些探究：UIWebView和WKWebView的比较和选择
+* WKWebView的使用
+  - <http://www.brighttj.com/ios/ios-wkwebview-new-features-and-use.html>
+  - <http://www.jianshu.com/p/6ba2507445e4>
   - <http://www.jianshu.com/p/84a6b1ac974a>
-
-
