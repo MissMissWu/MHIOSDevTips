@@ -16,7 +16,14 @@
 （7）__TIME__   ： // 获取当前时分秒；
 （8）__TIMESTAMP__   ： // 获取当前时间戳；
 ```
-
+```
+presentedViewController和presentingViewController，他们分别是被present的控制器和正在presenting的控制器。   
+比如说: 
+控制器A和B，[A presentViewController B animated：YES completion：nil]; 那么A相对于B就是presentingViewController，B相对于A是presentedViewController.  
+即这个时候　　
+　　　　B.presentingViewController = A;
+　　　　A.presentedViewController = B;
+```
 
 ## 参考链接
 * [layoutSubviews总结](http://blog.csdn.net/doubleuto/article/details/45155677)
@@ -51,6 +58,9 @@
 * 在 iOS 应用中直接跳转到 AppStore 的方法
   - <http://blog.csdn.net/kkk0526/article/details/9836369>
   - <http://blog.csdn.net/hu_songsong/article/details/48973621>
+
+* presentedViewController和presentingViewController的区别
+  - <http://www.mamicode.com/info-detail-469709.html>
 
 *
 
