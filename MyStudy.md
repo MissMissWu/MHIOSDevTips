@@ -62,6 +62,9 @@ presentedViewController和presentingViewController，他们分别是被present�
 * presentedViewController和presentingViewController的区别
   - <http://www.mamicode.com/info-detail-469709.html>
 
+* UIImage图片处理，旋转、截取、平铺、缩放等操作，持续更新中。
+  - <http://www.jianshu.com/p/9ab1205f5166>
+
 *
 
 
