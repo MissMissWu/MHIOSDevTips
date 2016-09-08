@@ -13,4 +13,8 @@ tags：表示标签存放的目录。
 ## 参考链接
 * Versions
   - <http://blog.csdn.net/u013368288/article/details/23885975>
+  - <http://blog.csdn.net/jeffasd/article/details/50510678>
 
+* SVN 主干(trunk)、分支(branch )、标记(tag)
+  - <http://panfuy.iteye.com/blog/1278865>
+  - 
