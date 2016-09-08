@@ -50,7 +50,8 @@
 
 * [小强孩的技术播客](http://www.cnblogs.com/fxiaoquan/)
 
-*
+*  [M了个J](http://www.cnblogs.com/mjios)
+*  
 ## 大牛社区
 * <http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=404973845&idx=1&sn=a642c0a79c2a0bf3ad766387a426fcfc&scene=21#wechat_redirect>
 * 
