@@ -70,4 +70,9 @@ presentedViewController和presentingViewController，他们分别是被present�
   - <http://www.jianshu.com/p/6ba2507445e4>
   - <http://www.jianshu.com/p/84a6b1ac974a>
   - <http://www.cnblogs.com/mddblog/p/5281748.html>
+
+* iOS小技巧总结，绝对有你想要的
+  - <http://www.jianshu.com/p/4523eafb4cd4>
+
+* iOS常用动画
   - 
