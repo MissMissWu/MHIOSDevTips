@@ -17,4 +17,8 @@ tags：表示标签存放的目录。
 
 * SVN 主干(trunk)、分支(branch )、标记(tag)
   - <http://panfuy.iteye.com/blog/1278865>
+
+
+* SVN的合并与分支
+  - <http://www.cnblogs.com/mq0036/p/3498908.html>
   - 
