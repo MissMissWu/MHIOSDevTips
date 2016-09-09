@@ -34,6 +34,8 @@ tags：表示标签存放的目录。
   - <http://www.cnblogs.com/snandy/p/4072857.html>
   - <http://blog.csdn.net/wswqiang/article/details/7954061>
   - <http://www.2cto.com/os/201206/134647.html>
+  - <http://www.cnblogs.com/wangrui-techbolg/archive/2013/08/20/3270058.html>
+  - 
 
 * svn 命令行创建和删除 分支和tags
   - <http://blog.csdn.net/yangzhongxuan/article/details/7519948>
