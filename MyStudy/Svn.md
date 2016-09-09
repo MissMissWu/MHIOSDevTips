@@ -117,5 +117,17 @@ svn: E155036: Working copy '/home/easwy/dev' is too old (format 10, created by S
   - <http://www.jianshu.com/p/94498251c7c8>
 
 
-* Cornerstone详细使用
+* Cornerstone
+  - 使用教程
+    - <http://blog.csdn.net/gf771115/article/details/41008853>
+    - <http://www.jianshu.com/p/7f5c019c528b> 
+  
+  - Cornerstone设置的忽略文件
+    - <http://www.jianshu.com/p/d662ca680c3d>
+    - <http://www.cnblogs.com/Apologize/p/5019900.html>
+    - <>
+
+
+* iOS开发——开发实战篇&版本控制SVN和Git使用详解
+  - <http://www.cnblogs.com/iCocos/p/4767692.html>
   - 
