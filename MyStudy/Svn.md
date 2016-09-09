@@ -35,13 +35,23 @@ tags：表示标签存放的目录。
   - <http://blog.csdn.net/wswqiang/article/details/7954061>
   - <http://www.2cto.com/os/201206/134647.html>
   - <http://www.cnblogs.com/wangrui-techbolg/archive/2013/08/20/3270058.html>
+  - <http://blog.sina.com.cn/s/blog_5fb39f910101be7i.html>
+  - <http://www.2cto.com/os/201305/210296.html>
+  - <http://blog.csdn.net/binsoft/article/details/44624577>
   - 
 
 * svn 命令行创建和删除 分支和tags
   - <http://blog.csdn.net/yangzhongxuan/article/details/7519948>
-  - <>
+  - <http://www.panweizeng.com/svn-branching-merging.html>
 
 
 * 如何在MAC环境下(Xcode)使用svn，以及新手在团队使用svn注意事项
   - <http://blog.csdn.net/mad1989/article/details/12975815>
+
+
+* SVN错误
+  - <http://blog.sina.com.cn/s/blog_7c8dc2d50101mwm1.html>
+  - <http://easwy.com/blog/archives/svn-upgrade-and-switch/>
+  - <http://www.jianshu.com/p/40f95ad8fa64>
+  - <http://blog.csdn.net/centralperk/article/details/48736031>
   - 
