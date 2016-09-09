@@ -39,6 +39,7 @@ tags：表示标签存放的目录。
   - <http://www.2cto.com/os/201305/210296.html>
   - <http://blog.csdn.net/binsoft/article/details/44624577>
   - <http://www.thegeekstuff.com/2011/04/svn-command-examples/>
+  - <http://www.jianshu.com/p/d46b92d4facc>
   - 
 
 * svn 命令行创建和删除 分支和tags
