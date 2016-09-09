@@ -128,6 +128,9 @@ svn: E155036: Working copy '/home/easwy/dev' is too old (format 10, created by S
     - <http://www.cnblogs.com/Apologize/p/5019900.html>
     - <>
   - Cornerstone合并分支
+    - <http://blog.csdn.net/leleyuan1130/article/details/50628450>
+    - <http://www.jianshu.com/p/d97b1d82d6cf>
+    - <http://blog.csdn.net/lijuan3203/article/details/52121353>
     - <>
 
 * iOS开发——开发实战篇&版本控制SVN和Git使用详解
