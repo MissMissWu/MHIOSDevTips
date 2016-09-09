@@ -22,6 +22,8 @@ tags：表示标签存放的目录。
 
 * SVN的合并与分支
   - <http://www.cnblogs.com/mq0036/p/3498908.html>
+  - <http://www.panweizeng.com/svn-branching-merging.html>
+  - 
 
 
 * SVN命令
