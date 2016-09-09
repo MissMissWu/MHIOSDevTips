@@ -51,13 +51,21 @@ tags：表示标签存放的目录。
 
 
 * SVN错误
-  - <http://blog.sina.com.cn/s/blog_7c8dc2d50101mwm1.html>
-  - <http://easwy.com/blog/archives/svn-upgrade-and-switch/>
-  - <http://www.jianshu.com/p/40f95ad8fa64>
-  - <http://blog.csdn.net/centralperk/article/details/48736031> 
+  - ` 
+  svn: E155036: Please see the 'svn upgrade' command
+svn: E155036: Working copy '/home/easwy/dev' is too old (format 10, created by Subversion 1.6)
+`
+    - <http://blog.sina.com.cn/s/blog_7c8dc2d50101mwm1.html>
+    - <http://easwy.com/blog/archives/svn-upgrade-and-switch/>
+    - <http://www.jianshu.com/p/40f95ad8fa64>
+    - <http://blog.csdn.net/centralperk/article/details/48736031> 
 
   - ` SVN：This client is too old to work with working copy…解决办法`
     - <http://blog.csdn.net/wu407797466/article/details/7946269>
     - <http://qa.blog.163.com/blog/static/190147002201161263424860/>
     - <http://blog.csdn.net/kazeik/article/details/41443545>
-    - 
+
+
+* SVN详解
+  - <01.源代码管理之SVN命令的使用,Cornerstone基本使用,Xcode Svn的使用>
+  - 
