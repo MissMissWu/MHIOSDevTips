@@ -9,6 +9,51 @@ branches：表示发布的版本存放的目录，即项目上线时发布的稳
 
 tags：表示标签存放的目录。
 
+* SVN常用命令
+
+
+  ```0bjc
+  svn import  : 将文件导入到服务器
+  svn checkout: 下载服务器的代码到本地   (简写svn co)
+  svn commit  : 将改动的文件提交到服务器  (简写svn ci)
+  svn update  : 更新服务器的代码到本地   (简写svn up)
+  svn add     : 向本地的版本控制库中添加新文件
+  svn delete  : 从本地的版本控制库中删除文件 (简写svn del)
+  svn remove  : 从本地的版本控制库中删除文件(简写svn rm)
+  svn move    : 移动文件或者目录或文件更名
+  svn mkdir   : 创建纳入版本控制下的新目录
+  svn revert  : 撤销之前的一切修改
+  svn merge   : 将两个版本之间的差异合并到当前文件
+  svn info    : 查看文件的详细信息
+  svn diff    : 查看不同版本的区别
+  svn log     : 查看日志信息
+  svn list    : 列出版本库下的文件和目录列表
+  svn status  : 查看文件状态（简写svn st）
+  svn help    : 获取帮助信息（比如svn help ci）
+  svn lock    : 加锁
+  svn unlock  : 解锁
+  更多命令，使用svn help 进行查看
+  svn help [命令] // 可以查看命令帮助
+  ```
+
+
+
+* SVN文件状态标识
+
+  ```objc
+  使用文件状态命令 svn st 查看文件状态时的标识
+  ' ' 没有修改
+  'A' 被添加到本地代码仓库
+  'C' 冲突
+  'D' 被删除
+  'I' 被忽略
+  'M' 被修改
+  'R' 被替换
+  'X' 外部定义创建的版本目录
+  '?' 文件没有被添加到本地版本库内
+  '!' 文件丢失或者不完整（不是通过svn命令删除的文件）
+  '~' 受控文件被其他文件阻隔
+  ```
 
 ## 参考链接
 * Versions
@@ -68,5 +113,6 @@ svn: E155036: Working copy '/home/easwy/dev' is too old (format 10, created by S
 
 
 * SVN详解
-  - <01.源代码管理之SVN命令的使用,Cornerstone基本使用,Xcode Svn的使用>
+  - <http://www.jianshu.com/p/641438b9ab43>
+  - <http://www.jianshu.com/p/94498251c7c8>
   - 
