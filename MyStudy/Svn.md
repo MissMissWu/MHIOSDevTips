@@ -17,7 +17,7 @@ tags：表示标签存放的目录。
 
 * SVN 主干(trunk)、分支(branch )、标记(tag)
   - <http://panfuy.iteye.com/blog/1278865>
-
+  - <http://www.thegeekstuff.com/2014/03/svn-merge-command/>
 
 
 * SVN的合并与分支
@@ -38,6 +38,7 @@ tags：表示标签存放的目录。
   - <http://blog.sina.com.cn/s/blog_5fb39f910101be7i.html>
   - <http://www.2cto.com/os/201305/210296.html>
   - <http://blog.csdn.net/binsoft/article/details/44624577>
+  - <http://www.thegeekstuff.com/2011/04/svn-command-examples/>
   - 
 
 * svn 命令行创建和删除 分支和tags
