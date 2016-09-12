@@ -16,6 +16,7 @@
 * [Masonry的使用，动画，出现问题解决等](http://www.jianshu.com/p/2b57ece2b3b8)
 * [代码适配Masonry使用的详细介绍](http://www.cnblogs.com/wqcoder/p/5511676.html)
 * [Masonry自动布局详解二：动画更新约束](http://www.jianshu.com/p/78c132f1a6fa)
+* [Masonry源码解读](http://www.cnblogs.com/-ljj/p/4470658.html)
 * 
 
 ## Masonry+UITableView-FDTemplateLayoutCell使用
