@@ -34,7 +34,7 @@
    * [FMDB](MyStudy/FMDB.md)
    * [RoundedCorner](MyStudy/RoundedCorner.md)
    * [SVN](MyStudy/Svn.md)
-   * Sum
+   * [Sum](MyStudy/Sum.md)
 * [ErrorBlog](ErrorBlog.md)
 * [尾声](ENDREADME.md)
 
