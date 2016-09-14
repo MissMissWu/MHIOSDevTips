@@ -56,6 +56,12 @@ hgs202 a73294
 
 源代码svn仓库地址
 https://112.74.99.76/svn/iOS_Code
+
+
+http://www.cocoachina.com/ios/20151217/14668.html
+
+清除xcode缓存：/Users/Apple/Library/Developer/Xcode/DerivedData
+
 ```
 
 
