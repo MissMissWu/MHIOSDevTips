@@ -67,6 +67,19 @@ http://www.cocoachina.com/ios/20151217/14668.html
 
 ## 工具
 * Mark Man
+* Foxmail
+* Axure RP Pro 7.0
+* iZip UnArchiver
+* GitHub DeskTop
+* 今目标
+* CornerStone
+* licecap
+* Mou
+* PicGIF Lite
+* GitBook Edit
+* Iterm
+* Mindjet MindManager
+* 
 
 ## 第三方
 * 百度地图
@@ -89,4 +102,12 @@ http://www.cocoachina.com/ios/20151217/14668.html
 * <https://github.com/andreamazz/AMScrollingNavbar>
 * <https://github.com/andreamazz/AMWaveTransition>
 * <https://github.com/onevcat/APNGKit>
-* 
+* <https://github.com/autresphere/ASMediaFocusManager>
+* <https://github.com/alskipp/ASProgressPopUpView>
+* <https://github.com/facebook/AsyncDisplayKit>
+* <https://github.com/Awhisper/AsyncDisplayKitDocTranslation>
+* <https://github.com/mzds/AVPlayerDemo>
+* <https://github.com/levey/AwesomeMenu>
+* <https://github.com/coolnameismy/BabyBluetooth>
+* <https://github.com/antiguab/BAFluidView>
+* <https://github.com/nicklockwood/Base64>
